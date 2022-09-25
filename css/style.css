@@ -123,13 +123,13 @@ nav a:focus {
 
 /* Step 2a: Write selector/rule property to position the default position for the skip class element*/
 .skip a {
-  position: relative;
+  position: absolute;
   top: -40px;
 }
 
 /* Step 2b: Write selector/rule property to position the skip class element when it is in focus*/
 .skip a:focus {
-  position: relative;
+  position: absolute;
   top: 20px;
 }
 
@@ -245,6 +245,13 @@ first div in the grid  and place it in the grid. */
     grid-column: 2 /span 2;
   }
 
+  
+  .about-image,
+.method-image,
+.clients-image,
+.contact-image {
+  max-height: 400px;
+}
   /* Step 13:Write the selector/rule property to update the .text-block class */
   .text-block {
     max-height: 250px;
